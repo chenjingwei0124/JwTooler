@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>desc</key>
+		<string>搜索</string>
+		<key>name</key>
+		<string>JwSearchController</string>
+	</dict>
+    
+	<key>/news/list</key>
+	<dict>
+		<key>desc</key>
+		<string>新闻列表</string>
+		<key>name</key>
+		<string>JwCurrListController</string>
+		<key>params</key>
+		<array>
+			<string>news_type</string>
+		</array>
+	</dict>
+    
+	<key>/sipprh/guide</key>
+	<dict>
+		<key>desc</key>
+		<string>优租房-办事指南</string>
+		<key>name</key>
+		<string>JwYZGuideController</string>
+	</dict>
+    
+    <key>/sipprh/questions</key>
+    <dict>
+        <key>desc</key>
+        <string>优租房/人才服务-常见问题</string>
+        <key>name</key>
+        <string>JwYZCommonController</string>
+        <key>params</key>
+        <array>
+            <string>category_id</string>
+        </array>
+    </dict>
+    
+    <key>/news/detail</key>
+    <dict>
+        <key>desc</key>
+        <string>默认新闻详情</string>
+        <key>name</key>
+        <string>JwDetailNormController</string>
+        <key>params</key>
+        <array>
+            <string>news_id</string>
+        </array>
+    </dict>
+    
+    <key>/siphrd/policy</key>
+    <dict>
+        <key>desc</key>
+        <string>人才服务-办事指南</string>
+        <key>name</key>
+        <string>JwRCGuideController</string>
+    </dict>
+    
+    <key>/jfgl/module</key>
+    <dict>
+        <key>desc</key>
+        <string>积分落户-分值估算</string>
+        <key>name</key>
+        <string>JwJiFenController</string>
+    </dict>
+    
+</dict>
+</plist>
