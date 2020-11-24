@@ -8,7 +8,6 @@
 #ifndef JwLeader_h
 #define JwLeader_h
 
-
 //Model
 #import "JwBaseModel.h"
 #import "JwProjectModel.h"

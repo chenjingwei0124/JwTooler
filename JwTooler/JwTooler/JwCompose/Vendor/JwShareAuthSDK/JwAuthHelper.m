@@ -7,6 +7,7 @@
 //
 
 #import "JwAuthHelper.h"
+#import "JwMacro.h"
 #import "JwShareAuthHeader.h"
 #import <WXApi.h>
 #import <WechatConnector/WechatConnector.h>

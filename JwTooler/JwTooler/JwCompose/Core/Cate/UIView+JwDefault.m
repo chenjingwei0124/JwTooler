@@ -8,6 +8,9 @@
 
 #import "UIView+JwDefault.h"
 #import <objc/runtime.h>
+//
+#import "UIView+JwCate.h"
+#import "JwMacro.h"
 
 @implementation UIView (JwDefault)
 

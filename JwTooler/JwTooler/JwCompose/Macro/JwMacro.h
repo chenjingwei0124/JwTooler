@@ -8,6 +8,8 @@
 #ifndef JwMacro_h
 #define JwMacro_h
 
+#import "JwHeader.h"
+
 /*
  iPhone XsM/11PM         414*896 @3x 1242*2688            6.5 458
  iPhone Xr/11            414*896 @2x 828*1792             6.1 326
@@ -88,6 +90,21 @@ NSLog(@"[%s:%d]: " format "\n", strrchr(__FILE__, '/') + 1, __LINE__, ## args);
 #define JwColorRGBA(r, g, b, a)  [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:(a)]
 /** 随机颜色 */
 #define JwColorRandom JwColorRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#define JwColorHexString(h) [UIColor jw_colorWithHexString:(h)]
+#define JwColorHexAString(h, a) [UIColor jw_colorWithHexString:(h) alpha:(a)]
+
+/** 暗黑颜色适配 */
+#define JwColorDynamicColor(l, d) [UIColor jw_colorDynamicWithLightColor:(l) darkColor:(d)]
+#define JwColorDynamicHexString(l, d) [UIColor jw_colorDynamicWithHexString:(l) darkString:(d)]
+
+
+/** window的 根控制器 JwRootController */
+#define kJwRootNavigationVC ((JwRootViewController *)[[[[UIApplication sharedApplication] delegate] window] rootViewController])
+/** JwRootController 根控制器 JwTabBarController */
+#define kJwRootTabBarVC (JwTabBarController *)(((JwRootViewController *)kJwRootNavigationVC).viewControllers[0])
+/** tabbarVC的 选择控制器 JwNavigationController */
+#define kJwCurrentNavigationVC (JwNavigationController *)(((JwTabBarController *)kJwRootTabBarVC).selectedViewController)
 
 
 

@@ -55,8 +55,6 @@
 #import <ZLPhotoBrowser.h>
 
 #import "JwCompose.h"
-#import "JwProject.h"
-
 
 
 #endif /* JwQuoter_pch */

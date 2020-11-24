@@ -37,11 +37,11 @@
 @property (nonatomic, assign) CGPoint jw_origin;
 @property (nonatomic, assign) CGSize  jw_size;
 
-@property (nonatomic, readonly)UIViewController *jw_viewController;
+@property (nonatomic, readonly) UIViewController *jw_viewController;
 
-@property (nonatomic, readonly)UINavigationController *jw_navigationController;
+@property (nonatomic, readonly) UINavigationController *jw_navigationController;
 
-@property (nonatomic, readonly)UITabBarController *jw_tabBarController;
+@property (nonatomic, readonly) UITabBarController *jw_tabBarController;
 
 /** 固定角圆角 */
 - (void)jw_bezierRoundingCorners:(UIRectCorner)corners cornerRadius:(NSInteger)cornerRadius;
