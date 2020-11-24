@@ -13,9 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/chenjingwei0124/JwTooler.git", :tag => spec.version }
 
-  spec.source_files  = "JwTooler/JwTooler/JwCompose/JwCompose.h"
-
-  spec.public_header_files = "JwTooler/JwTooler/JwCompose/JwCompose.h"
+  spec.source_files  = "JwTooler/JwTooler/JwCompose/**/*.{h,m}"
   
   spec.requires_arc = true
 
