@@ -121,7 +121,6 @@
 		C8CB3EDD256CE86800AE2321 /* UIScrollView+JwRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JwRefresh.m"; sourceTree = "<group>"; };
 		C8CB3EDE256CE86800AE2321 /* UIButton+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JwCate.m"; sourceTree = "<group>"; };
 		C8CB3EDF256CE86800AE2321 /* UIView+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JwCate.m"; sourceTree = "<group>"; };
-		C8CB3EE0256CE86800AE2321 /* JwCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwCompose.h; sourceTree = "<group>"; };
 		C8CB3EE2256CE86800AE2321 /* JwMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwMacro.h; sourceTree = "<group>"; };
 		C8CB3EE3256CE86800AE2321 /* JwHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwHeader.h; sourceTree = "<group>"; };
 		C8CB3EE6256CE86800AE2321 /* JwWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwWebView.h; sourceTree = "<group>"; };
@@ -231,7 +230,6 @@
 				C8CB3F16256CE86900AE2321 /* Tools */,
 				C8CB3F21256CE86900AE2321 /* Base */,
 				C8CB3EAD256CE86700AE2321 /* Core */,
-				C8CB3EE0256CE86800AE2321 /* JwCompose.h */,
 				C8CB3EE1256CE86800AE2321 /* Macro */,
 				C8CB3EE4256CE86800AE2321 /* Vendor */,
 			);
