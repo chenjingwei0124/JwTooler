@@ -138,6 +138,8 @@
 		C85093B92562506400FB6217 /* JwJumpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JwJumpHelper.m; sourceTree = "<group>"; };
 		C85093BA2562506400FB6217 /* JwJumpExplain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwJumpExplain.h; sourceTree = "<group>"; };
 		C85093C02562552E00FB6217 /* JwFront.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwFront.h; sourceTree = "<group>"; };
+		C8656F61256CD3CE00B4C3C3 /* JwCompose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwCompose.h; sourceTree = "<group>"; };
+		C8656F62256CD3E400B4C3C3 /* JwProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwProject.h; sourceTree = "<group>"; };
 		C8B7D7E2255CD89000D749C6 /* JwDocTooler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JwDocTooler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B7D7E5255CD89000D749C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8B7D7E6255CD89000D749C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -466,7 +468,7 @@
 			children = (
 				C8B7D802255CE19C00D749C6 /* App */,
 				C8B7D804255CE1B300D749C6 /* Class */,
-				C8B7D803255CE1A900D749C6 /* JwComposer */,
+				C8B7D803255CE1A900D749C6 /* JwCompose */,
 				C8E30BB3256226210086DF72 /* JwProject */,
 			);
 			path = JwDocTooler;
@@ -485,14 +487,15 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		C8B7D803255CE1A900D749C6 /* JwComposer */ = {
+		C8B7D803255CE1A900D749C6 /* JwCompose */ = {
 			isa = PBXGroup;
 			children = (
+				C8656F61256CD3CE00B4C3C3 /* JwCompose.h */,
 				C8E30BB5256227310086DF72 /* Core */,
 				C8185FE6255D11FF00A882FD /* Macro */,
 				C850933925624BAC00FB6217 /* Vendor */,
 			);
-			path = JwComposer;
+			path = JwCompose;
 			sourceTree = "<group>";
 		};
 		C8B7D804255CE1B300D749C6 /* Class */ = {
@@ -507,6 +510,7 @@
 		C8E30BB3256226210086DF72 /* JwProject */ = {
 			isa = PBXGroup;
 			children = (
+				C8656F62256CD3E400B4C3C3 /* JwProject.h */,
 				C85093B32562506400FB6217 /* Tools */,
 				C85093A025624EEA00FB6217 /* Base */,
 				C85093352562483600FB6217 /* Macro */,
