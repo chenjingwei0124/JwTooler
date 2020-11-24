@@ -8,7 +8,7 @@
 #ifndef JwCompose_h
 #define JwCompose_h
 
-#import "JwMacro.h"
+//#import "JwMacro.h"
 #import "JwHeader.h"
 
 #endif /* JwCompose_h */
