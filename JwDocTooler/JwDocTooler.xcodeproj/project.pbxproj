@@ -74,7 +74,6 @@
 		B23B34E0D6475DCCC93D03C0 /* libPods-JwDocTooler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JwDocTooler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8185FE8255D1B9D00A882FD /* JwHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwHeader.h; sourceTree = "<group>"; };
 		C8185FE9255D1BAB00A882FD /* JwLeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwLeader.h; sourceTree = "<group>"; };
-		C8185FEA255D1BB700A882FD /* JwMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwMacro.h; sourceTree = "<group>"; };
 		C818609F255D27F900A882FD /* JwQuoter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwQuoter.pch; sourceTree = "<group>"; };
 		C850933B25624BBE00FB6217 /* JwWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		C850933C25624BBE00FB6217 /* JwWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JwWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +139,7 @@
 		C85093C02562552E00FB6217 /* JwFront.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwFront.h; sourceTree = "<group>"; };
 		C8656F61256CD3CE00B4C3C3 /* JwCompose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwCompose.h; sourceTree = "<group>"; };
 		C8656F62256CD3E400B4C3C3 /* JwProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwProject.h; sourceTree = "<group>"; };
+		C8656F67256CD9EE00B4C3C3 /* JwMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwMacro.h; sourceTree = "<group>"; };
 		C8B7D7E2255CD89000D749C6 /* JwDocTooler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JwDocTooler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B7D7E5255CD89000D749C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8B7D7E6255CD89000D749C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,8 +229,8 @@
 		C8185FE6255D11FF00A882FD /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				C8656F67256CD9EE00B4C3C3 /* JwMacro.h */,
 				C8185FE8255D1B9D00A882FD /* JwHeader.h */,
-				C8185FEA255D1BB700A882FD /* JwMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
