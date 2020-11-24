@@ -7,7 +7,6 @@
 //
 
 #import "JwSavedPhotos.h"
-#import <SDWebImageDownloader.h>
 #import "UIImageView+JwCate.h"
 
 @interface JwSavedPhotos ()

@@ -7,7 +7,6 @@
 //
 
 #import "JwUUID.h"
-#import <FCUUID.h>
 
 @implementation JwUUID
 

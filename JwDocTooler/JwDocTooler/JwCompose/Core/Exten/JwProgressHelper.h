@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <MBProgressHUD.h>
 
 @interface JwProgressHelper : NSObject
 
