@@ -1,6 +1,0 @@
-framework module UIAlertViewBlockExtension {
-  umbrella header "UIAlertViewBlockExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}
