@@ -54,7 +54,5 @@
 #import <ZFPlayer.h>
 #import <ZLPhotoBrowser.h>
 
-#import "JwCompose.h"
-
 
 #endif /* JwQuoter_pch */
