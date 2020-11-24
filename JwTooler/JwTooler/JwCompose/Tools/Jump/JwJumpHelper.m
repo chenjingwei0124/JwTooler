@@ -7,6 +7,9 @@
 //
 
 #import "JwJumpHelper.h"
+#import "JwCommon.h"
+#import "JwMacro.h"
+#import "UIView+JwCate.h"
 
 @implementation JwJumpHelper
 
@@ -64,9 +67,11 @@
 
 + (JwBaseViewController *)jumpHelperWithJumpModel:(JwJumpModel *)jumpModel fromNC:(UINavigationController *)fromNC{
     JwBaseViewController *vc = [JwJumpHelper viewControllerWithJumpModel:jumpModel];
-    if (!fromNC) {
-        fromNC = kJwCurrentNavigationVC;
-    }
+    /**
+     if (!fromNC) {
+     fromNC = kJwCurrentNavigationVC;
+     }
+     */
     if (![fromNC isKindOfClass:[UINavigationController class]]) {
         fromNC = [UINavigationController jw_currentNC];
     }

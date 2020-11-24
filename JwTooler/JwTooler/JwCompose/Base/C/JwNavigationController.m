@@ -7,6 +7,7 @@
 //
 
 #import "JwNavigationController.h"
+#import "JwMacro.h"
 
 @interface JwNavigationController ()
 

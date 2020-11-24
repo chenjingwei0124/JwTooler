@@ -490,11 +490,11 @@
 			isa = PBXGroup;
 			children = (
 				C8CB3F23256CE86900AE2321 /* JwBaseModel.h */,
-				C8CB3F24256CE86900AE2321 /* JwProjectModel.h */,
-				C8CB3F25256CE86900AE2321 /* JwBaseProjectModel.m */,
 				C8CB3F26256CE86900AE2321 /* JwBaseModel.m */,
-				C8CB3F27256CE86900AE2321 /* JwProjectModel.m */,
 				C8CB3F28256CE86900AE2321 /* JwBaseProjectModel.h */,
+				C8CB3F25256CE86900AE2321 /* JwBaseProjectModel.m */,
+				C8CB3F24256CE86900AE2321 /* JwProjectModel.h */,
+				C8CB3F27256CE86900AE2321 /* JwProjectModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -502,18 +502,18 @@
 		C8CB3F29256CE86900AE2321 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				C8CB3F2A256CE86900AE2321 /* JwRootViewController.h */,
-				C8CB3F2B256CE86900AE2321 /* JwNavigationController.m */,
-				C8CB3F2C256CE86900AE2321 /* JwBaseMenuController.m */,
-				C8CB3F2D256CE86900AE2321 /* JwTabBarController.m */,
-				C8CB3F2E256CE86900AE2321 /* JwBaseViewController.h */,
 				C8CB3F2F256CE86900AE2321 /* JwBaseBackController.h */,
+				C8CB3F34256CE86900AE2321 /* JwBaseBackController.m */,
+				C8CB3F33256CE86900AE2321 /* JwBaseMenuController.h */,
+				C8CB3F2C256CE86900AE2321 /* JwBaseMenuController.m */,
+				C8CB3F2E256CE86900AE2321 /* JwBaseViewController.h */,
+				C8CB3F35256CE86900AE2321 /* JwBaseViewController.m */,
 				C8CB3F30256CE86900AE2321 /* JwNavigationController.h */,
+				C8CB3F2B256CE86900AE2321 /* JwNavigationController.m */,
+				C8CB3F2A256CE86900AE2321 /* JwRootViewController.h */,
 				C8CB3F31256CE86900AE2321 /* JwRootViewController.m */,
 				C8CB3F32256CE86900AE2321 /* JwTabBarController.h */,
-				C8CB3F33256CE86900AE2321 /* JwBaseMenuController.h */,
-				C8CB3F34256CE86900AE2321 /* JwBaseBackController.m */,
-				C8CB3F35256CE86900AE2321 /* JwBaseViewController.m */,
+				C8CB3F2D256CE86900AE2321 /* JwTabBarController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";

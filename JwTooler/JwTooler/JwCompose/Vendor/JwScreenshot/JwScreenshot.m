@@ -7,6 +7,9 @@
 //
 
 #import "JwScreenshot.h"
+#import "JwMacro.h"
+#import "JwCommon.h"
+#import "UIView+JwCate.h"
 
 @implementation JwScreenshot
 

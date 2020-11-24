@@ -7,6 +7,8 @@
 //
 
 #import "JwMenuView.h"
+#import "JwMacro.h"
+#import "UIView+JwCate.h"
 
 @interface JwMenuView ()
 

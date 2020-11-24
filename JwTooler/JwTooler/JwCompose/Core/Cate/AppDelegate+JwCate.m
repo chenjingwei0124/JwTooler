@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate+JwCate.h"
+#import "JwScreenshot.h"
 
 @implementation AppDelegate (JwCate)
 

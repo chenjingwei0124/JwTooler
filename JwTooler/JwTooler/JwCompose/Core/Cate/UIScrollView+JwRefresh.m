@@ -7,6 +7,7 @@
 //
 
 #import "UIScrollView+JwRefresh.h"
+#import "JwMacro.h"
 
 @implementation UIScrollView (JwRefresh)
 

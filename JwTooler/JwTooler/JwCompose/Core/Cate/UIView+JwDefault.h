@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JwMacro.h"
 
 typedef NS_ENUM(NSUInteger, Jw_ViewState) {
     Jw_ViewStateError = 0,     //加载失败

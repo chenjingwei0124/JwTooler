@@ -7,6 +7,8 @@
 //
 
 #import "JwCarouselView.h"
+#import "JwMacro.h"
+#import "UIView+JwCate.h"
 
 @interface JwCarouselView ()<UICollectionViewDelegate, UICollectionViewDataSource>
 

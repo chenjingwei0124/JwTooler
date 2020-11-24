@@ -10,7 +10,7 @@
 #import "JwShareHelper.h"
 #import "JwShareAuthHeader.h"
 #import <MOBFoundation/MobSDK+Privacy.h>
-
+#import "JwMacro.h"
 
 @implementation JwShareHelper
 

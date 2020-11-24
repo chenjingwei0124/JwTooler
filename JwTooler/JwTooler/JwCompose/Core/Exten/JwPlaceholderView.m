@@ -7,6 +7,7 @@
 //
 
 #import "JwPlaceholderView.h"
+#import "JwMacro.h"
 
 @interface JwPlaceholderView ()
 
