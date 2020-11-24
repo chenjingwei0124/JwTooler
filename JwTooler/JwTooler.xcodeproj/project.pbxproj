@@ -72,6 +72,7 @@
 		091983D5275DA2D4BFCE7D8B /* Pods-JwTooler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JwTooler.debug.xcconfig"; path = "Target Support Files/Pods-JwTooler/Pods-JwTooler.debug.xcconfig"; sourceTree = "<group>"; };
 		3706C5CA09135FBF2331B1CE /* libPods-JwTooler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JwTooler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF4C14914499DFED67741AB /* Pods-JwTooler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JwTooler.release.xcconfig"; path = "Target Support Files/Pods-JwTooler/Pods-JwTooler.release.xcconfig"; sourceTree = "<group>"; };
+		C84CC59E256D0C5100E07C7D /* JwFront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwFront.h; sourceTree = "<group>"; };
 		C8CB3EAF256CE86700AE2321 /* JwProgressHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JwProgressHelper.m; sourceTree = "<group>"; };
 		C8CB3EB0256CE86700AE2321 /* JwCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JwCommon.m; sourceTree = "<group>"; };
 		C8CB3EB1256CE86700AE2321 /* JwUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwUUID.h; sourceTree = "<group>"; };
@@ -311,6 +312,7 @@
 		C8CB3EE1256CE86800AE2321 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				C84CC59E256D0C5100E07C7D /* JwFront.h */,
 				C8CB3F20256CE86900AE2321 /* JwLeader.h */,
 				C8CB3EE2256CE86800AE2321 /* JwMacro.h */,
 				C8CB3EE3256CE86800AE2321 /* JwHeader.h */,

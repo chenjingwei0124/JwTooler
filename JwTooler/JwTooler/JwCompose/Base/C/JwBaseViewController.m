@@ -7,7 +7,7 @@
 //
 
 #import "JwBaseViewController.h"
-#import "JwMacro.h"
+#import "JwFront.h"
 
 @interface JwBaseViewController ()
 

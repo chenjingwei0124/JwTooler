@@ -8,8 +8,9 @@
 #ifndef JwCompose_h
 #define JwCompose_h
 
-//#import "JwMacro.h"
-//#import "JwHeader.h"
 //#import "JwLeader.h"
+//#import "JwHeader.h"
+//#import "JwFront.h"
+//#import "JwMacro.h"
 
 #endif /* JwCompose_h */

@@ -7,9 +7,7 @@
 //
 
 #import "JwJumpHelper.h"
-#import "JwCommon.h"
-#import "JwMacro.h"
-#import "UIView+JwCate.h"
+#import "JwFront.h"
 
 @implementation JwJumpHelper
 

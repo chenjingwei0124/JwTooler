@@ -11,6 +11,7 @@
 #import "JwShareAuthHeader.h"
 #import <MOBFoundation/MobSDK+Privacy.h>
 #import "JwMacro.h"
+#import "JwFront.h"
 
 @implementation JwShareHelper
 

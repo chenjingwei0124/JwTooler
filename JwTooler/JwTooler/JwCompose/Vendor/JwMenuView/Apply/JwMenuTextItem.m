@@ -8,7 +8,7 @@
 
 #import "JwMenuTextItem.h"
 #import "JwMacro.h"
-#import "UIView+JwCate.h"
+#import "JwFront.h"
 
 @interface JwMenuTextItem ()
 
