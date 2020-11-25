@@ -8,6 +8,7 @@
 
 #import "JwNavigationController.h"
 #import "JwFront.h"
+#import "UIImage+JwCate.h"
 
 @interface JwNavigationController ()
 

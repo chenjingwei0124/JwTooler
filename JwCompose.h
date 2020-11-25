@@ -13,4 +13,12 @@
 //#import "JwFront.h"
 //#import "JwMacro.h"
 
+
+/**
+ git tag 0.0.3
+ git push origin --tags
+ pod lib lint JwCompose.podspec --allow-warnings --use-libraries
+ pod trunk push JwCompose.podspec --allow-warnings --use-libraries 
+ */
+
 #endif /* JwCompose_h */

@@ -12,8 +12,6 @@
 #import <string.h>
 #import <stdlib.h>
 #import <mach-o/dyld.h>
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
 
 @implementation JwJailBreak
 

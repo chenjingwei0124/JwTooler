@@ -8,6 +8,10 @@
 
 #import "JwJumpHelper.h"
 #import "JwFront.h"
+#import "JwCommon.h"
+#import "JwProgressHelper.h"
+#import "UIView+JwCate.h"
+#import "UINavigationController+JwCate.h"
 
 @implementation JwJumpHelper
 

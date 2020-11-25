@@ -8,7 +8,7 @@
 #ifndef JwFront_h
 #define JwFront_h
 
-#import "JwHeader.h"
+#import "UIColor+JwCate.h"
 
 #define JwColorHexString(h) [UIColor jw_colorWithHexString:(h)]
 #define JwColorHexAString(h, a) [UIColor jw_colorWithHexString:(h) alpha:(a)]

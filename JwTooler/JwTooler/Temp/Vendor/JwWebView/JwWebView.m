@@ -9,6 +9,7 @@
 #import "JwWebView.h"
 #import "JwMacro.h"
 #import "JwFront.h"
+#import "UIView+JwCate.h"
 
 @interface JwWebView ()<WKScriptMessageHandler, WKUIDelegate, WKNavigationDelegate>
 

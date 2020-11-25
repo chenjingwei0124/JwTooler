@@ -6,6 +6,7 @@
 //  Copyright © 2017年 chenJw. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 @interface JwJailBreak : NSObject

@@ -8,6 +8,7 @@
 
 #import "UIImageView+JwCate.h"
 #import "JwPlaceholderView.h"
+#import <Masonry.h>
 
 #define kPlaceholderTag 41270
 

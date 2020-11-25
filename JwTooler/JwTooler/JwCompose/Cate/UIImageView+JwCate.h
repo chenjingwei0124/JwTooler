@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SDWebImage.h>
 
 @interface UIImageView (JwCate)
 

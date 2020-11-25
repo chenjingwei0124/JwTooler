@@ -227,25 +227,13 @@
 		C8442C1F256DE8DB0008F1C7 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				C84CC59E256D0C5100E07C7D /* JwFront.h */,
 				C8CB3EE2256CE86800AE2321 /* JwMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
 		};
-		C84CC5A2256D139100E07C7D /* Temp */ = {
-			isa = PBXGroup;
-			children = (
-				C84CC5A4256D143200E07C7D /* Exten */,
-				C8CB3F16256CE86900AE2321 /* Tools */,
-				C8CB3F21256CE86900AE2321 /* Base */,
-				C8CB3EE1256CE86800AE2321 /* Macro */,
-				C8CB3EE4256CE86800AE2321 /* Vendor */,
-				C8CB3EBF256CE86800AE2321 /* Cate */,
-			);
-			path = Temp;
-			sourceTree = "<group>";
-		};
-		C84CC5A4256D143200E07C7D /* Exten */ = {
+		C8442C4F256E2B310008F1C7 /* Exten */ = {
 			isa = PBXGroup;
 			children = (
 				C8CB3EB9256CE86700AE2321 /* JwCommon.h */,
@@ -256,10 +244,39 @@
 				C8CB3EB4256CE86700AE2321 /* JwJailBreak.m */,
 				C8CB3EBA256CE86800AE2321 /* JwPlaceholderView.h */,
 				C8CB3EB5256CE86700AE2321 /* JwPlaceholderView.m */,
-				C8CB3EB7256CE86700AE2321 /* JwProgressHelper.h */,
-				C8CB3EAF256CE86700AE2321 /* JwProgressHelper.m */,
 				C8CB3EBD256CE86800AE2321 /* JwRegular.h */,
 				C8CB3EB2256CE86700AE2321 /* JwRegular.m */,
+			);
+			path = Exten;
+			sourceTree = "<group>";
+		};
+		C8442C54256E5AA70008F1C7 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				C8CB3ED5256CE86800AE2321 /* AppDelegate+JwCate.h */,
+				C8CB3EC5256CE86800AE2321 /* AppDelegate+JwCate.m */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		C84CC5A2256D139100E07C7D /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				C8442C54256E5AA70008F1C7 /* Cate */,
+				C84CC5A4256D143200E07C7D /* Exten */,
+				C8CB3F16256CE86900AE2321 /* Tools */,
+				C8CB3F21256CE86900AE2321 /* Base */,
+				C8CB3EE1256CE86800AE2321 /* Macro */,
+				C8CB3EE4256CE86800AE2321 /* Vendor */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		C84CC5A4256D143200E07C7D /* Exten */ = {
+			isa = PBXGroup;
+			children = (
+				C8CB3EB7256CE86700AE2321 /* JwProgressHelper.h */,
+				C8CB3EAF256CE86700AE2321 /* JwProgressHelper.m */,
 				C8CB3EBC256CE86800AE2321 /* JwSavedPhotos.h */,
 				C8CB3EB3256CE86700AE2321 /* JwSavedPhotos.m */,
 				C8CB3EB1256CE86700AE2321 /* JwUUID.h */,
@@ -271,6 +288,8 @@
 		C8CB3EAC256CE86700AE2321 /* JwCompose */ = {
 			isa = PBXGroup;
 			children = (
+				C8CB3EBF256CE86800AE2321 /* Cate */,
+				C8442C4F256E2B310008F1C7 /* Exten */,
 				C8442C1F256DE8DB0008F1C7 /* Macro */,
 			);
 			path = JwCompose;
@@ -279,8 +298,6 @@
 		C8CB3EBF256CE86800AE2321 /* Cate */ = {
 			isa = PBXGroup;
 			children = (
-				C8CB3ED5256CE86800AE2321 /* AppDelegate+JwCate.h */,
-				C8CB3EC5256CE86800AE2321 /* AppDelegate+JwCate.m */,
 				C8CB3ED3256CE86800AE2321 /* NSString+JwCate.h */,
 				C8CB3EC7256CE86800AE2321 /* NSString+JwCate.m */,
 				C8CB3EC2256CE86800AE2321 /* UIBarButtonItem+JwCate.h */,
@@ -318,7 +335,6 @@
 		C8CB3EE1256CE86800AE2321 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				C84CC59E256D0C5100E07C7D /* JwFront.h */,
 				C8CB3F20256CE86900AE2321 /* JwLeader.h */,
 				C8CB3EE3256CE86800AE2321 /* JwHeader.h */,
 			);
@@ -813,7 +829,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -866,7 +882,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -884,7 +900,7 @@
 				DEVELOPMENT_TEAM = 3GMJYX32U9;
 				GCC_PREFIX_HEADER = JwTooler/App/JwQuoter.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/JwTooler/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -905,7 +921,7 @@
 				DEVELOPMENT_TEAM = 3GMJYX32U9;
 				GCC_PREFIX_HEADER = JwTooler/App/JwQuoter.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/JwTooler/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

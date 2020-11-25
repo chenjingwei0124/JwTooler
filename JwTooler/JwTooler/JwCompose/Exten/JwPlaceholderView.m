@@ -8,6 +8,7 @@
 
 #import "JwPlaceholderView.h"
 #import "JwFront.h"
+#import "UIView+JwCate.h"
 
 @interface JwPlaceholderView ()
 

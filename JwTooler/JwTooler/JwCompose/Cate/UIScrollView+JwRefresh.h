@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MJRefresh.h>
 
 typedef NS_ENUM(NSUInteger, Jw_FooterState) {
     Jw_FooterStateDefault = 0,

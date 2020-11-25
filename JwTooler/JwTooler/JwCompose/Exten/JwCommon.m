@@ -8,6 +8,8 @@
 
 #import "JwCommon.h"
 #import "JwMacro.h"
+#import <CoreText/CTFramesetter.h>
+#import <SDWebImage.h>
 
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
@@ -205,7 +207,7 @@
     }
     
     NSTimeInterval millionSecond = [[NSDate date] timeIntervalSinceDate:date];
-    DLog(@"耗时%lf", millionSecond);
+    NSLog(@"耗时%lf", millionSecond);
     return (NSArray *)pageRanges;
 }
 
