@@ -246,6 +246,8 @@
 				C8CB3EB5256CE86700AE2321 /* JwPlaceholderView.m */,
 				C8CB3EBD256CE86800AE2321 /* JwRegular.h */,
 				C8CB3EB2256CE86700AE2321 /* JwRegular.m */,
+				C8CB3EBC256CE86800AE2321 /* JwSavedPhotos.h */,
+				C8CB3EB3256CE86700AE2321 /* JwSavedPhotos.m */,
 			);
 			path = Exten;
 			sourceTree = "<group>";
@@ -277,8 +279,6 @@
 			children = (
 				C8CB3EB7256CE86700AE2321 /* JwProgressHelper.h */,
 				C8CB3EAF256CE86700AE2321 /* JwProgressHelper.m */,
-				C8CB3EBC256CE86800AE2321 /* JwSavedPhotos.h */,
-				C8CB3EB3256CE86700AE2321 /* JwSavedPhotos.m */,
 				C8CB3EB1256CE86700AE2321 /* JwUUID.h */,
 				C8CB3EB8256CE86700AE2321 /* JwUUID.m */,
 			);
