@@ -227,6 +227,7 @@
 		C8442C1F256DE8DB0008F1C7 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				C8CB3EE2256CE86800AE2321 /* JwMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -271,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				C8442C1F256DE8DB0008F1C7 /* Macro */,
-				C8CB3EE2256CE86800AE2321 /* JwMacro.h */,
 			);
 			path = JwCompose;
 			sourceTree = "<group>";
