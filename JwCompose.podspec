@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JwCompose"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A short description of JwCompose."
 
   spec.homepage     = "https://github.com/chenjingwei0124/JwTooler"
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '9.0'
 
-  spec.source_files  = "JwTooler/JwTooler/JwCompose/**/*.{h,m}"
+  spec.source_files  = "JwCompose/**/*.{h,m}"
   
   spec.requires_arc = true
 
