@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JwCompose"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of JwCompose."
 
   spec.homepage     = "https://github.com/chenjingwei0124/JwTooler"
