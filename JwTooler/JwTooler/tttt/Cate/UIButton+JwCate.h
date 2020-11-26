@@ -10,19 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^ButtonBlock)(UIButton* btn);
+typedef void(^didButtonBlock)(UIButton* btn);
 
 @interface UIButton (JwCate)
 
 /**
  *  button 添加点击事件
  */
-- (void)addAction:(ButtonBlock)block;
+- (void)jw_addAction:(didButtonBlock)block;
 
 /**
  *  button 添加事件
  */
-- (void)addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents;
+- (void)jw_addAction:(didButtonBlock)block forControlEvents:(UIControlEvents)controlEvents;
 
 @end
 

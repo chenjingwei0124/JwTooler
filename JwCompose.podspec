@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JwCompose"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "A short description of JwCompose."
 
   spec.homepage     = "https://github.com/chenjingwei0124/JwTooler"
@@ -21,11 +21,6 @@ Pod::Spec.new do |spec|
   
   spec.requires_arc = true
 
-  spec.frameworks = 'UIKit', 'Foundation', 'CoreFoundation', 'QuartzCore', 'CoreGraphics', 'CoreImage', 'CoreText'
-
-  spec.dependency 'SDWebImage'
-  spec.dependency 'Masonry'
-  spec.dependency 'MJRefresh'
-
+  spec.frameworks = 'UIKit', 'Foundation', 'QuartzCore', 'CoreText'
 
 end

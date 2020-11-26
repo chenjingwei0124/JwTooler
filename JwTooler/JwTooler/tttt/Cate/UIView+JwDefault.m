@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import "JwFront.h"
 #import "UIView+JwCate.h"
-#import <Masonry.h>
+
 
 @implementation UIView (JwDefault)
 

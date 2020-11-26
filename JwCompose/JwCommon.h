@@ -100,12 +100,6 @@ NS_ASSUME_NONNULL_BEGIN
 /** 判断文件是否存在 否则创建 */
 + (BOOL)jw_fileHasLive:(NSString *)path;
 
-
-/** 获取缓存大小 */
-+ (NSString *)getCacheSize;
-/** 清除缓存 */
-+ (void)cleanCache;
-
 /** 退出程序 */
 + (void)jw_exitApplication;
 
