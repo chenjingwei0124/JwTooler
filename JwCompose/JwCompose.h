@@ -16,6 +16,8 @@
 
 
 /**
+ pod spec create JwCate
+ 
  git tag 0.0.3
  git push origin --tags
  pod lib lint JwCompose.podspec --allow-warnings --use-libraries

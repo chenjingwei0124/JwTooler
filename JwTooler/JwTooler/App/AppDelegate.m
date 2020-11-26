@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "JwHomeController.h"
+#import "JwHeader.h"
 
 @interface AppDelegate ()
 

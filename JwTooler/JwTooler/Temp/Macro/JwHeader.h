@@ -20,7 +20,7 @@
 #import "UINavigationController+JwCate.h"
 #import "UIScrollView+JwRefresh.h"
 #import "UITextField+JwCate.h"
-#import "UIView+Gradient.h"
+#import "UIView+JwGradient.h"
 #import "UIView+JwCate.h"
 #import "UIView+JwDefault.h"
 #import "UIView+JwNib.h"

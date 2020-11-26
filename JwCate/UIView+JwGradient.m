@@ -1,9 +1,14 @@
+//
+//  UIView+JwGradient.m
+//  JwTooler
+//
+//  Created by 陈警卫 on 2020/11/26.
+//
 
-#import "UIView+Gradient.h"
+#import "UIView+JwGradient.h"
 #import <objc/runtime.h>
 
-@implementation UIView (Gradient)
-
+@implementation UIView (JwGradient)
 
 + (Class)layerClass {
     return [CAGradientLayer class];
@@ -82,5 +87,3 @@
 }
 
 @end
-
-

@@ -23,7 +23,6 @@
 		C8442D12256E68260008F1C7 /* UIBarButtonItem+JwCate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442CF7256E68260008F1C7 /* UIBarButtonItem+JwCate.m */; };
 		C8442D13256E68260008F1C7 /* UIColor+JwCate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442CF8256E68260008F1C7 /* UIColor+JwCate.m */; };
 		C8442D14256E68260008F1C7 /* UINavigationController+JwCate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442CF9256E68260008F1C7 /* UINavigationController+JwCate.m */; };
-		C8442D15256E68260008F1C7 /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442CFB256E68260008F1C7 /* UIView+Gradient.m */; };
 		C8442D16256E68260008F1C7 /* UIView+JwNib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442CFD256E68260008F1C7 /* UIView+JwNib.m */; };
 		C8442D17256E68270008F1C7 /* UIViewController+JwCate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442D01256E68260008F1C7 /* UIViewController+JwCate.m */; };
 		C8442D18256E68270008F1C7 /* UIScrollView+JwRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C8442D03256E68260008F1C7 /* UIScrollView+JwRefresh.m */; };
@@ -66,6 +65,7 @@
 		C8F47DB9256CE44E00C6D9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F47DB7256CE44E00C6D9BF /* LaunchScreen.storyboard */; };
 		C8F47DBC256CE44E00C6D9BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F47DBB256CE44E00C6D9BF /* main.m */; };
 		C8F47DCA256CE49400C6D9BF /* JwHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F47DC9256CE49400C6D9BF /* JwHomeController.m */; };
+		C8FAC679256F572D00993FA6 /* UIView+JwGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FAC678256F572D00993FA6 /* UIView+JwGradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,7 +91,6 @@
 		C8442CEA256E68260008F1C7 /* UIBarButtonItem+JwCate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JwCate.h"; sourceTree = "<group>"; };
 		C8442CEB256E68260008F1C7 /* UIView+JwNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JwNib.h"; sourceTree = "<group>"; };
 		C8442CEC256E68260008F1C7 /* UITextField+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JwCate.m"; sourceTree = "<group>"; };
-		C8442CED256E68260008F1C7 /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
 		C8442CEE256E68260008F1C7 /* NSString+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JwCate.m"; sourceTree = "<group>"; };
 		C8442CEF256E68260008F1C7 /* UIView+JwDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JwDefault.m"; sourceTree = "<group>"; };
 		C8442CF0256E68260008F1C7 /* UIImage+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JwCate.m"; sourceTree = "<group>"; };
@@ -105,7 +104,6 @@
 		C8442CF8256E68260008F1C7 /* UIColor+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JwCate.m"; sourceTree = "<group>"; };
 		C8442CF9256E68260008F1C7 /* UINavigationController+JwCate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JwCate.m"; sourceTree = "<group>"; };
 		C8442CFA256E68260008F1C7 /* NSString+JwCate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JwCate.h"; sourceTree = "<group>"; };
-		C8442CFB256E68260008F1C7 /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
 		C8442CFC256E68260008F1C7 /* UITextField+JwCate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JwCate.h"; sourceTree = "<group>"; };
 		C8442CFD256E68260008F1C7 /* UIView+JwNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JwNib.m"; sourceTree = "<group>"; };
 		C8442CFE256E68260008F1C7 /* UIImageView+JwCate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JwCate.h"; sourceTree = "<group>"; };
@@ -194,6 +192,9 @@
 		C8F47DC9256CE49400C6D9BF /* JwHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JwHomeController.m; sourceTree = "<group>"; };
 		C8F47DCC256CE49E00C6D9BF /* JwQuoter.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwQuoter.pch; sourceTree = "<group>"; };
 		C8FAC5EB256F391D00993FA6 /* JwCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JwCompose.h; sourceTree = "<group>"; };
+		C8FAC677256F572D00993FA6 /* UIView+JwGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JwGradient.h"; sourceTree = "<group>"; };
+		C8FAC678256F572D00993FA6 /* UIView+JwGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JwGradient.m"; sourceTree = "<group>"; };
+		C8FAC67C256F596A00993FA6 /* JwCate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwCate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,50 +253,11 @@
 			path = ../../JwCompose;
 			sourceTree = "<group>";
 		};
-		C8442CE4256E68260008F1C7 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				C8442CE6256E68260008F1C7 /* JwFront.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
-		C8442CE7256E68260008F1C7 /* Cate */ = {
-			isa = PBXGroup;
-			children = (
-				C8442CFA256E68260008F1C7 /* NSString+JwCate.h */,
-				C8442CEE256E68260008F1C7 /* NSString+JwCate.m */,
-				C8442CEA256E68260008F1C7 /* UIBarButtonItem+JwCate.h */,
-				C8442CF7256E68260008F1C7 /* UIBarButtonItem+JwCate.m */,
-				C8442CF5256E68260008F1C7 /* UIButton+JwCate.h */,
-				C8442D04256E68260008F1C7 /* UIButton+JwCate.m */,
-				C8442CE8256E68260008F1C7 /* UIColor+JwCate.h */,
-				C8442CF8256E68260008F1C7 /* UIColor+JwCate.m */,
-				C8442D00256E68260008F1C7 /* UIImage+JwCate.h */,
-				C8442CF0256E68260008F1C7 /* UIImage+JwCate.m */,
-				C8442CFF256E68260008F1C7 /* UILabel+JwCate.h */,
-				C8442CF2256E68260008F1C7 /* UILabel+JwCate.m */,
-				C8442CE9256E68260008F1C7 /* UINavigationController+JwCate.h */,
-				C8442CF9256E68260008F1C7 /* UINavigationController+JwCate.m */,
-				C8442CFC256E68260008F1C7 /* UITextField+JwCate.h */,
-				C8442CEC256E68260008F1C7 /* UITextField+JwCate.m */,
-				C8442CED256E68260008F1C7 /* UIView+Gradient.h */,
-				C8442CFB256E68260008F1C7 /* UIView+Gradient.m */,
-				C8442CF4256E68260008F1C7 /* UIView+JwCate.h */,
-				C8442D05256E68260008F1C7 /* UIView+JwCate.m */,
-				C8442D02256E68260008F1C7 /* UIView+JwDefault.h */,
-				C8442CEF256E68260008F1C7 /* UIView+JwDefault.m */,
-				C8442CEB256E68260008F1C7 /* UIView+JwNib.h */,
-				C8442CFD256E68260008F1C7 /* UIView+JwNib.m */,
-				C8442CF1256E68260008F1C7 /* UIViewController+JwCate.h */,
-				C8442D01256E68260008F1C7 /* UIViewController+JwCate.m */,
-			);
-			path = Cate;
-			sourceTree = "<group>";
-		};
 		C84CC5A2256D139100E07C7D /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				C8442D02256E68260008F1C7 /* UIView+JwDefault.h */,
+				C8442CEF256E68260008F1C7 /* UIView+JwDefault.m */,
 				C8FAC657256F48DD00993FA6 /* MBProgressHUD+JwCate */,
 				C8FAC655256F485200993FA6 /* MJRefresh+JwCate */,
 				C8FAC654256F473500993FA6 /* SDWebImage+JwCate */,
@@ -548,7 +510,7 @@
 		C8F47DA8256CE44C00C6D9BF /* JwTooler */ = {
 			isa = PBXGroup;
 			children = (
-				C8FAC658256F492500993FA6 /* tttt */,
+				C8FAC668256F551600993FA6 /* JwCate */,
 				C8442CD6256E68260008F1C7 /* JwCompose */,
 				C84CC5A2256D139100E07C7D /* Temp */,
 				C8F47DC7256CE47600C6D9BF /* Class */,
@@ -611,13 +573,38 @@
 			path = "MBProgressHUD+JwCate";
 			sourceTree = "<group>";
 		};
-		C8FAC658256F492500993FA6 /* tttt */ = {
+		C8FAC668256F551600993FA6 /* JwCate */ = {
 			isa = PBXGroup;
 			children = (
-				C8442CE4256E68260008F1C7 /* Macro */,
-				C8442CE7256E68260008F1C7 /* Cate */,
+				C8FAC67C256F596A00993FA6 /* JwCate.h */,
+				C8442CE6256E68260008F1C7 /* JwFront.h */,
+				C8442CFA256E68260008F1C7 /* NSString+JwCate.h */,
+				C8442CEE256E68260008F1C7 /* NSString+JwCate.m */,
+				C8442CEA256E68260008F1C7 /* UIBarButtonItem+JwCate.h */,
+				C8442CF7256E68260008F1C7 /* UIBarButtonItem+JwCate.m */,
+				C8442CF5256E68260008F1C7 /* UIButton+JwCate.h */,
+				C8442D04256E68260008F1C7 /* UIButton+JwCate.m */,
+				C8442CE8256E68260008F1C7 /* UIColor+JwCate.h */,
+				C8442CF8256E68260008F1C7 /* UIColor+JwCate.m */,
+				C8442D00256E68260008F1C7 /* UIImage+JwCate.h */,
+				C8442CF0256E68260008F1C7 /* UIImage+JwCate.m */,
+				C8442CFF256E68260008F1C7 /* UILabel+JwCate.h */,
+				C8442CF2256E68260008F1C7 /* UILabel+JwCate.m */,
+				C8442CE9256E68260008F1C7 /* UINavigationController+JwCate.h */,
+				C8442CF9256E68260008F1C7 /* UINavigationController+JwCate.m */,
+				C8442CFC256E68260008F1C7 /* UITextField+JwCate.h */,
+				C8442CEC256E68260008F1C7 /* UITextField+JwCate.m */,
+				C8442CF4256E68260008F1C7 /* UIView+JwCate.h */,
+				C8442D05256E68260008F1C7 /* UIView+JwCate.m */,
+				C8442CEB256E68260008F1C7 /* UIView+JwNib.h */,
+				C8442CFD256E68260008F1C7 /* UIView+JwNib.m */,
+				C8442CF1256E68260008F1C7 /* UIViewController+JwCate.h */,
+				C8442D01256E68260008F1C7 /* UIViewController+JwCate.m */,
+				C8FAC677256F572D00993FA6 /* UIView+JwGradient.h */,
+				C8FAC678256F572D00993FA6 /* UIView+JwGradient.m */,
 			);
-			path = tttt;
+			name = JwCate;
+			path = ../../JwCate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -756,7 +743,6 @@
 				C8CB3F53256CE86900AE2321 /* JwMenuView.m in Sources */,
 				C8CB3F54256CE86900AE2321 /* JwMenuItem.m in Sources */,
 				C8CB3F5C256CE86900AE2321 /* JwCarouselView.m in Sources */,
-				C8442D15256E68260008F1C7 /* UIView+Gradient.m in Sources */,
 				C8442D0E256E68260008F1C7 /* UIView+JwDefault.m in Sources */,
 				C8CB3F61256CE86900AE2321 /* JwJumpHelper.m in Sources */,
 				C8442D12256E68260008F1C7 /* UIBarButtonItem+JwCate.m in Sources */,
@@ -783,6 +769,7 @@
 				C8CB3F66256CE86900AE2321 /* JwBaseMenuController.m in Sources */,
 				C8CB3F62256CE86900AE2321 /* JwBaseProjectModel.m in Sources */,
 				C8442D11256E68260008F1C7 /* UIImageView+JwCate.m in Sources */,
+				C8FAC679256F572D00993FA6 /* UIView+JwGradient.m in Sources */,
 				C8442D0D256E68260008F1C7 /* NSString+JwCate.m in Sources */,
 				C8CB3F64256CE86900AE2321 /* JwProjectModel.m in Sources */,
 				C8442D17256E68270008F1C7 /* UIViewController+JwCate.m in Sources */,
