@@ -387,13 +387,13 @@
 		C8CB3F01256CE86800AE2321 /* JwShareAuthSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C8CB3F02256CE86800AE2321 /* JwShareHelper.m */,
-				C8CB3F03256CE86800AE2321 /* JwShareModel.m */,
 				C8CB3F04256CE86800AE2321 /* JwAuthHelper.h */,
-				C8CB3F05256CE86800AE2321 /* JwShareHelper.h */,
-				C8CB3F06256CE86800AE2321 /* JwShareAuthHeader.h */,
-				C8CB3F07256CE86800AE2321 /* JwShareModel.h */,
 				C8CB3F08256CE86800AE2321 /* JwAuthHelper.m */,
+				C8CB3F06256CE86800AE2321 /* JwShareAuthHeader.h */,
+				C8CB3F05256CE86800AE2321 /* JwShareHelper.h */,
+				C8CB3F02256CE86800AE2321 /* JwShareHelper.m */,
+				C8CB3F07256CE86800AE2321 /* JwShareModel.h */,
+				C8CB3F03256CE86800AE2321 /* JwShareModel.m */,
 			);
 			path = JwShareAuthSDK;
 			sourceTree = "<group>";
